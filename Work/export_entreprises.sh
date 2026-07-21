@@ -1,5 +1,6 @@
 #!/bin/bash
 # export_entreprises.sh — Combined export script
+# https://github.com/yannoux10/public
 # Revenue >= 20 M€, custom columns + logs, HQ only
 # Version 2.0: Unified script with mode selection
 #

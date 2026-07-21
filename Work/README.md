@@ -1,5 +1,7 @@
 # Export Entreprises France
 
+[![GitHub](https://img.shields.io/badge/GitHub-yannoux10/public-blue?logo=github)](https://github.com/yannoux10/public/tree/main)
+
 Exporte les entreprises françaises (CA ≥ 20 M€) depuis l'API publique
 [recherche-entreprises.api.gouv.fr](https://recherche-entreprises.api.gouv.fr).
 Filtre par région/département, avec classification NAF et données financières.

@@ -1,6 +1,7 @@
 <#
 .SYNOPSIS
     Exporte les entreprises françaises (CA >= 20 M€) depuis l'API recherche-entreprises.
+    https://github.com/yannoux10/public
 
     REMARQUE : si PowerShell refuse d'exécuter ce script avec l'erreur
     "l'exécution de scripts est désactivée sur ce système", lancez dans
