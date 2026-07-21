@@ -1,6 +1,6 @@
 # Yann Ropars
 
-**IT Leader & Storage Solutions Manager** chez Huawei Technologies — Lyon, France.
+**IT Leader & Storage Solutions Manager** at Huawei Technologies — Lyon, France.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yannropars-blue?logo=linkedin)](https://www.linkedin.com/in/yannropars/)
 [![Site](https://img.shields.io/badge/Web-l.ropars.net-8B5CF6?logo=firefox)](https://l.ropars.net/@yannropars)
@@ -10,21 +10,21 @@
 
 ## À propos
 
-Professionnel de l'IT basé près de Lyon, spécialisé dans la **pré-vente de solutions de stockage et de protection de données** pour entreprises. J'accompagne les organisations dans leur transformation numérique, depuis l'évaluation des besoins jusqu'au déploiement complet.
+IT professional based near Lyon, specialized in **pre-sales of storage and data protection solutions** for enterprise customers. I help organizations with their digital transformation, from needs assessment to full deployment.
 
-### Ce que je fais
+### What I do
 
-- Conception et vente de solutions **stockage et sauvegarde** pour environnements critiques
-- Animation d'ateliers, **POC** et revues techniques avec clients et partenaires
-- Conseil en stratégie d'**infrastructure**, **reprise après sinistre** et architectures **cloud hybrides**
-- Collaboration avec les équipes techniques, commerciales et les **CISO/RSSI**
+- Design and sell **storage & backup solutions** for critical environments
+- Run **workshops, POCs** and technical reviews with clients and partners
+- Advise on **infrastructure strategy**, **disaster recovery** and **hybrid cloud** architectures
+- Work with technical teams, sales and **CISOs**
 
-### Centres d'intérêt
+### Interests
 
-- 👨‍👩‍👧‍👦 Famille
+- 👨‍👩‍👧‍👦 Family
 - ⚽ Football
-- 🏠 Domotique (Home Assistant, appareils connectés, API)
-- 💻 Tech : IA/ML dans l'infrastructure, stockage cloud-native, automatisation
+- 🏠 Home automation (Home Assistant, smart devices, APIs)
+- 💻 Tech: AI/ML in infrastructure, cloud-native storage, automation
 
 ---
 
