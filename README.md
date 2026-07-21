@@ -40,7 +40,7 @@ Scripts d'export des entreprises françaises (CA ≥ 20 M€) depuis l'API publi
 | [`export_entreprises.sh`](Work/export_entreprises.sh) | Linux / Mac / WSL | `bash`, `curl`, `jq` |
 | [`export_entreprises.ps1`](Work/export_entreprises.ps1) | Windows (PowerShell 5.1+) | Aucune |
 
-→ [Documentation complète](Work/export_entreprises.sh)
+→ [Documentation complète](Work/README.md)
 
 ---
 
