@@ -30,17 +30,17 @@ IT professional based near Lyon, specialized in **pre-sales of storage and data 
 
 ## Projets
 
-### [Export Entreprises France](/export_entreprises.sh)
+### [Export Entreprises France](Work/export_entreprises.sh)
 
 Scripts d'export des entreprises françaises (CA ≥ 20 M€) depuis l'API publique
 [recherche-entreprises.api.gouv.fr](https://recherche-entreprises.api.gouv.fr).
 
 | Script | Usage | Dépendances |
 |--------|-------|-------------|
-| [`export_entreprises.sh`](/export_entreprises.sh) | Linux / Mac / WSL | `bash`, `curl`, `jq` |
-| [`export_entreprises.ps1`](/export_entreprises.ps1) | Windows (PowerShell 5.1+) | Aucune |
+| [`export_entreprises.sh`](Work/export_entreprises.sh) | Linux / Mac / WSL | `bash`, `curl`, `jq` |
+| [`export_entreprises.ps1`](Work/export_entreprises.ps1) | Windows (PowerShell 5.1+) | Aucune |
 
-→ [Documentation complète](export_entreprises.sh)
+→ [Documentation complète](Work/export_entreprises.sh)
 
 ---
 
