@@ -442,11 +442,42 @@ function Run-AllExports {
 }
 
 # ============================================================
-# Help display
+# Help / Usage display
 # ============================================================
 
-function Show-Help {
-    Get-Help $MyInvocation.MyCommand.Path -Detailed
+function Show-Usage {
+    @"
+Usage: .\export_entreprises.ps1 <mode> [options]
+
+Modes:
+  aura_bfc       AURA + BFC regions (by region code)
+  aura-69        AURA excluding Rhône (département 69)
+  bfc            Bourgogne-Franche-Comté (by department)
+  69             Rhône (département 69) only
+  all            Run all four exports sequentially
+
+Options:
+  -t, -Type TYPE         Export type (aura_bfc, aura-69, bfc, 69, all)
+  -e, -Employees CODES   Filter by employee bracket (comma-separated)
+  -h, -Help              Show this help message
+
+Employee bracket codes:
+  NN (aucun salarié)       00 (0 salarié)
+  01 (1-2 sal.)            02 (3-5 sal.)
+  03 (6-9 sal.)            11 (10-19 sal.)
+  12 (20-49 sal.)          21 (50-99 sal.)
+  22 (100-199 sal.)        31 (200-249 sal.)
+  32 (250-499 sal.)        41 (500-999 sal.)
+  42 (1000-1999 sal.)      51 (2000-4999 sal.)
+  52 (5000-9999 sal.)      53 (10000+ sal.)
+
+Examples:
+  .\export_entreprises.ps1 aura_bfc
+  .\export_entreprises.ps1 -t aura-69 -e "21,22,31,32"
+  .\export_entreprises.ps1 69
+  `$env:TRANCHES_EFFECTIF="31,32,41,42"; .\export_entreprises.ps1 all
+"@ | Write-Host
+    exit 0
 }
 
 # ============================================================
@@ -454,8 +485,7 @@ function Show-Help {
 # ============================================================
 
 if ($Help) {
-    Show-Help
-    exit 0
+    Show-Usage
 }
 
 # Resolve mode: priority -t > positional
@@ -464,8 +494,7 @@ $resolvedMode = if ($Type) { $Type } else { $Mode }
 if (-not $resolvedMode) {
     Write-Host "Error: No mode specified." -ForegroundColor Red
     Write-Host ""
-    Show-Help
-    exit 1
+    Show-Usage
 }
 
 # ============================================================
@@ -481,8 +510,7 @@ switch ($resolvedMode) {
     default {
         Write-Host "Error: Unknown mode '$resolvedMode'" -ForegroundColor Red
         Write-Host ""
-        Show-Help
-        exit 1
+        Show-Usage
     }
 }
 
